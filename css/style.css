@@ -1,3 +1,31 @@
+@font-face {
+   font-family: Pacifico;
+   src: url('../fonts/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: Raleway;
+   src: url('../fonts/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Raleway light';
+   src: url('../fonts/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Raleway semi bold';
+   src: url('../fonts/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
 html {
    min-width: 100%;
    min-height: 100%;
@@ -23,7 +51,7 @@ body {
    z-index: -1;
    height: 423px;
    background-color: #e3e3e3;
-   transform: translate(0, -160px);
+   transform: translate(0, -169px);
 }
 
 .sec3 {
@@ -33,146 +61,195 @@ body {
 }
 
 header h1 {
-   font-size: 320%;
+   font-family: Pacifico, sans-serif;
+   font-size: 60px;
    z-index: 1;
-   transform: translate(745px, -647px);
+   transform: translate(760px, -653px);
 }
 
 footer {
-   transform: translate(0, -155px);
+   transform: translate(0, -164px);
    height: 134px;
    background-color: #e3e3e3;
 }
 
 header p {
-   font-size: 230%;
+   font-family: 'Raleway light', sans-serif;
+   font-size: 36px;
    z-index: 1;
-   transform: translate(462px, -585px);
+   transform: translate(475px, -595px);
 }
 
 .h1 {
+   font-family: 'Raleway semi bold', sans-serif;
+   font-size: 22px;
    position: relative;
-   right: 10px;
-   top: 0;
+   right: 2px;
+   bottom: 13px;
 }
 
 .p1 {
+   font-family: Raleway, sans-serif;
+   font-size: 16px;
    line-height: 25px;
    position: relative;
-   top: 25px;
-   right: 10px;
+   top: 7px;
+   right: 0;
 }
 
 .h2 {
+   font-family: 'Raleway semi bold', sans-serif;
+   font-size: 22px;
    position: relative;
-   top: 80px;
-   right: 10px;
+   top: 62px;
+   right: 2px;
 }
 
 .p2 {
+   font-family: Raleway, sans-serif;
+   font-size: 16px;
    line-height: 25px;
    position: relative;
-   top: 105px;
-   right: 10px;
+   top: 80px;
+   right: 0;
 }
 
 .h3 {
+   font-size: 22px;
+   font-family: 'Raleway semi bold', sans-serif;
    position: relative;
    left: 750px;
-   bottom: 182px;
+   bottom: 207px;
 }
 
 .p3 {
+   font-family: Raleway, sans-serif;
+   font-size: 16px;
    line-height: 25px;
    position: relative;
    left: 750px;
-   bottom: 155px;
+   bottom: 188px;
 }
 
 .h4 {
+   font-size: 22px;
+   font-family: 'Raleway semi bold', sans-serif;
    position: relative;
    left: 750px;
-   bottom: 100px;
+   bottom: 132px;
 }
 
 .p4 {
+   font-family: Raleway, sans-serif;
+   font-size: 16px;
    line-height: 25px;
    position: relative;
    left: 750px;
-   bottom: 77px;
+   bottom: 114px;
 }
 
 .h5 {
+   font-size: 22px;
+   font-family: 'Raleway semi bold', sans-serif;
    position: relative;
-   top: 58px;
-   left: 190px;
+   top: 57px;
+   left: 200px;
 }
 
 .p5 {
+   font-family: Raleway, sans-serif;
+   font-size: 16px;
    line-height: 25px;
    position: relative;
-   top: 68px;
-   left: 190px;
+   top: 78px;
+   left: 200px;
 }
 
 .h6 {
+   font-size: 24px;
+   font-family: Raleway, sans-serif;
    position: relative;
-   left: 370px;
-   bottom: 100px;
-   font-size: 155%;
+   left: 380px;
+   bottom: 108px;
 }
 
 .p6 {
+   font-size: 14px;
+   font-family: 'Raleway semi bold', sans-serif;
    position: relative;
-   left: 710px;
-   bottom: 75px;
+   left: 725px;
+   bottom: 80px;
+}
+
+.sec3 > .p6 > p:nth-child(2) {
+   font-family: Raleway, sans-serif;
+   font-size: 14px;
+   position: relative;
+   left: 80px;
+   bottom: 15px;
 }
 
 .h7 {
+   font-family: 'Raleway semi bold', sans-serif;
+   font-size: 24px;
    position: relative;
    left: 655px;
-   top: 359px;
-   font-size: 155%;
+   top: 337px;
 }
 
 .p7 {
+   font-size: 16px;
+   font-family: Raleway, sans-serif;
    position: relative;
    left: 540px;
-   top: 384px;
+   top: 360px;
 }
 
 .contact {
+   font-size: 16px;
+   font-family: Raleway, sans-serif;
    position: relative;
-   left: 485px;
+   left: 517px;
    top: 65px;
 }
 
 .downlaod {
+   font-size: 16px;
+   font-family: Raleway, sans-serif;
    position: relative;
-   left: 575px;
-   top: 50px;
+   left: 606px;
+   top: 49px;
 }
 
 .press {
+   font-size: 16px;
+   font-family: Raleway, sans-serif;
    position: relative;
-   left: 680px;
-   top: 35px;
+   left: 720px;
+   top: 34px;
 }
 
 .email {
+   font-size: 16px;
+   font-family: Raleway, sans-serif;
    position: relative;
-   left: 755px;
-   top: 20px;
+   left: 790px;
+   top: 18px;
 }
 
 .support {
+   font-size: 16px;
+   font-family: Raleway, sans-serif;
    position: relative;
-   left: 835px;
+   left: 867px;
+   top: 2px;
 }
 
 .privacy-policy {
+   font-size: 16px;
+   font-family: Raleway, sans-serif;
    position: relative;
-   left: 925px;
+   left: 960px;
    bottom: 15px;
 }
 
@@ -189,149 +266,149 @@ header p {
 .down-arrow {
    position: absolute;
    z-index: 0;
-   transform: translate(754px, -2190px);
+   transform: translate(765px, -2200px);
 }
 
 .phone {
    position: absolute;
    z-index: 0;
-   transform: translate(550px, -2115px);
+   transform: translate(560px, -2125px);
 }
 
 .white-dot {
    position: absolute;
    z-index: 2;
-   transform: translate(827px, -1915px);
+   transform: translate(837px, -1923px);
 }
 
 .white-dot-1 {
    position: absolute;
    z-index: 2;
-   transform: translate(700px, -1825px);
+   transform: translate(710px, -1834px);
 }
 
 .white-dot-2 {
    position: absolute;
    z-index: 2;
-   transform: translate(700px, -1613px);
+   transform: translate(710px, -1623px);
 }
 
 .black-dot {
    position: absolute;
    z-index: 2;
-   transform: translate(830px, -1710px);
+   transform: translate(840px, -1720px);
 }
 
 .cursor {
    position: absolute;
    z-index: 3;
-   transform: translate(842px, -1693px);
+   transform: translate(852px, -1703px);
 }
 
 .angled-line {
    position: absolute;
    z-index: 2;
-   transform: translate(845px, -1695px);
+   transform: translate(855px, -1705px);
 }
 
 .video-image {
    position: absolute;
    z-index: 1;
-   transform: translate(865px, -1260px);
+   transform: translate(878px, -1270px);
 }
 
 .play {
    position: absolute;
    z-index: 2;
-   transform: translate(885px, -1020px);
+   transform: translate(895px, -1028px);
 }
 
 .video-play-bar {
    position: absolute;
    z-index: 3;
-   transform: translate(975px, -1020px);
+   transform: translate(985px, -1028px);
 }
 
 .apple {
    position: absolute;
    z-index: 2;
-   transform: translate(188px, -1090px);
+   transform: translate(200px, -1102px);
 }
 
 .android {
    position: absolute;
    z-index: 2;
-   transform: translate(278px, -1090px);
+   transform: translate(288px, -1102px);
 }
 
 .windows {
    position: absolute;
    z-index: 2;
-   transform: translate(365px, -1090px);
+   transform: translate(375px, -1102px);
 }
 
 .cursor-1 {
    position: absolute;
    z-index: 3;
-   transform: translate(400px, -1050px);
+   transform: translate(412px, -1062px);
 }
 
 .people {
    position: absolute;
    z-index: 2;
-   transform: translate(0, -715px);
+   transform: translate(0, -723px);
 }
 
 .twitter {
    position: absolute;
    z-index: 2;
-   transform: translate(650px, -250px);
+   transform: translate(661px, -258px);
 }
 
 .youtube {
    position: absolute;
    z-index: 2;
-   transform: translate(871px, -250px);
+   transform: translate(882px, -258px);
 }
 
 .pinterest {
    position: absolute;
    z-index: 2;
-   transform: translate(738px, -250px);
+   transform: translate(750px, -258px);
 }
 
 .google {
    position: absolute;
    z-index: 2;
-   transform: translate(784px, -250px);
+   transform: translate(794px, -258px);
 }
 
 .active-person {
    position: absolute;
    z-index: 2;
-   transform: translate(914px, -635px);
+   transform: translate(914px, -645px);
 }
 
 .facebook {
    position: absolute;
    z-index: 2;
-   transform: translate(695px, -250px);
+   transform: translate(706px, -258px);
 }
 
 .linkedin {
    position: absolute;
    z-index: 2;
-   transform: translate(827px, -250px);
+   transform: translate(838px, -258px);
 }
 
 .cursor-2 {
    position: absolute;
    z-index: 3;
-   transform: translate(915px, -580px);
+   transform: translate(915px, -590px);
 }
 
 .cursor-3 {
    position: absolute;
    z-index: 3;
-   transform: translate(740px, -230px);
+   transform: translate(765px, -238px);
 }
